@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv = "X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <meta name="author" content = "Praxxys Inc">
+    <meta name="keywords" content="html,css,JavaScript,xhtml,Jquery,">
+    <meta name="description" content="a Unimart sample website">
+    <title>UniMart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png"
+    <!-- Slick Css -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Cabin|
+
+Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather+Sans"
+
+rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet"
+
+href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+
+crossorigin="anonymous">
+
+
+
+
+  </head>
+  <body>
+
+
+
+      <nav>
+
+        <div class="open-slide menu-icon" >
+          <a href="#" onclick="openSlideMenu()">
+              <i class="fas fa-2x fa-bars"></i>
+           </a>
+        </div>
+                  <!--
+                    <div class="menu-icon">
+                        <i class="fa fa-bars fa-2x"></i>
+                    </div>
+
+                    -->
+          <div class="menu">
+
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">WHO WE ARE</a></li>
+                <li><a href="#">PROMOS</a></li>
+                <li><a href="#">OUR STORES</a></li>
+                <li><a href="#">CAREERS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+
+
+
+
+
+          </div>
+
+
+
+          <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="#"  onclick="closeSlideMenu()">HOME</a>
+            <a href="#" onclick="closeSlideMenu()">WHO WE ARE</a>
+            <a href="#" onclick="closeSlideMenu()">PROMOS</a>
+            <a href="#" onclick="closeSlideMenu()">OUR STORES</a>
+            <a href="#" onclick="closeSlideMenu()">CAREERS</a>
+            <a href="#" onclick="closeSlideMenu()">CONTACT US</a>
+          </div>
+
+
+
+
+
+      </nav>
+
+
+
+
+
+
+      <header>
+
+
+        <div class="call-outs-container">
+
+        	<div class="call-out">
+
+        		<div class="banner">
+
+        			<div class="center-me">
+
+
+        				<div class="logo">
+
+        						<img src="images/logo.png">
+
+        				</div>
+
+        				<div class="title1">
+        						<h2>
+        								Newer.Broader.Better
+        							</h2>
+        				</div>
+
+        				<div class="ptext1">
+        				 <h3>
+        					 A wide selection of products from your regular grocery go-tos. to
+        					 home and hardware needs.
+        				 </h3>
+
+        			 </div>
+
+        			</div>
+
+        		</div>
+
+        	</div>
+
+
+        	<div class="call-out">
+
+
+
+        			<div class="call-outs-container2">
+
+
+
+
+
+        			<div class="call-out2">
+        				<img src="images/fdleft.png" alt="">
+        			</div>
+
+
+        			<div class="call-out2">
+        					<div class="ptext">
+        			 		 <h3>
+        			 			 A wide selection of products from your regular grocery go-tos. to
+        			 			 home and hardware needs.
+        			 		 </h3>
+
+        			 	 </div>
+        			</div>
+
+        			<div class="call-out2">
+        					  <img src="images/fdright.png" alt="">
+        			</div>
+
+        		</div>
+
+
+
+
+
+
+
+        </div>
+
+        </div>
+
+
+
+
+</header>
+
+
+
+
+    <section id="About">
+        <div class="containers">
+
+      <div class="abcon" >
+
+        <div class="ableft fade-in">
+            <img src="images/abcon2.png" alt="">
+        </div>
+
+
+
+      	<div class="abmain">
+
+        <h3>ABOUT US</h3>
+        <h2>Why Choose UniMart?</h2>
+
+            <p>
+              Unimart has always been known for having a wide selection of products,
+              from your regular grocery go-tos, to home and hardware needs. The new
+
+branch
+              is, if not the same, even better.
+            </p>
+
+            <p>
+              Not only has it been given an updated look from its late '60s branding,
+
+but the
+              new Unimart is complete with a good mix of both local and imported goods,
+
+and its
+              shelves are organized well to help shoppers in finding what they need
+
+quickly.
+            </p>
+
+            <input class="button" name="who" id="usbtn" value="Who we Are">
+
+      	</div>
+
+
+
+
+
+      	<div class="abright fade-in">
+      	      <img src="images/abcon1.png" alt="">
+      	</div>
+
+
+      </div>
+
+
+
+    </div>
+ </section>
+
+
+
+     <section id="Promos">
+         <div class="container">
+
+           <h3>OUR PROMOS</h3>
+           <h2>Discover Unique Finds at UniMart</h2>
+           <h4>a complete with a good mix of both local and imported goods.</h4>
+
+           <div class="thing slider">
+             <div><img src="images/beef.jpg"></div>
+             <div><img src="images/basil.jpg"></div>
+             <div><img src="images/carrots.jpg"></div>
+             <div><img src="images/beef.jpg"></div>
+             <div><img src="images/carrots.jpg"></div>
+             <div><img src="images/basil.jpg"></div>
+           </div>
+
+
+        <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/slick.js"></script>
+
+           <script type="text/javascript">
+
+              $(document).ready(function(){
+                $('.thing').slick({
+
+                    dots:false,
+                    arrows: true,
+                    autoplay:true,
+                    autoplaySpeed:1000,
+                    centerPadding: '10px',
+                    slidesToShow:3,
+                    centerMode:true,
+                    responsive: [
+                  {
+                    breakpoint: 768,
+                    settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '30px',
+                    slidesToShow: 3
+                       }
+                     },
+                     {
+                    breakpoint: 400,
+                    settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                       }
+                     }
+                   ]
+                });
+
+              });
+
+
+           </script>
+
+
+               <input class="button" name="view" id="promobtn" value="View All">
+
+         </div>
+      </section>
+
+
+
+      <section id="Stores">
+          <div class="container">
+
+            <h3>OUR STORES</h3>
+            <h2>Find Us In These Locations</h2>
+            <h4>We have plenty of branches near you.</h4>
+
+<div class="mymap">
+
+
+  <div class="gmap">
+      <iframe id="gmaps"
+      src="https://maps.google.com/maps?q=Quezon%20City
+
+%20Philippines&t=&z=15&ie=UTF8&iwloc=&output=embed"
+      frameborder="1" scrolling="no" marginheight="0" marginwidth="0">
+      </iframe>
+  </div>
+
+
+  </div>
+
+
+<div class="address">
+
+
+
+<label>Locations:</label>
+  <ul>
+    <li><span class="mark"><i class="fas fa-map-marker-alt"></span></i> Quezon Ave.
+
+Mother Ignacia St. Quezon City.</li>
+
+    <li><span class="mark"><i class="fas fa-map-marker-alt"></span></i> Ortigas Ave.
+
+Julio Vargas 2132 St. Pasig City.</li>
+
+    <li><span class="mark"><i class="fas fa-map-marker-alt"></span></i> Gil Puyat Ave.
+
+Don Bosco  35 St. Makati City.</li>
+  </ul>
+
+</div>
+
+
+
+          </div>
+
+       </section>
+
+
+
+
+<section id="Careers">
+
+  <div class="container">
+
+      <div class="carcon">
+
+        <div class="carleft">
+          <img src="images/pips.png" alt="">
+        </div>
+
+
+
+            <div class="carmain">
+              <h3>CAREERS</h3>
+              <h2>Unite with UniMart!</h2>
+              <h4>Want to be part of our team? Click the button to discover more</h4>
+
+              <input class="button" name="careers" id="careerbtn" value="Careers">
+
+
+
+            </div>
+
+
+            <div class="carright">
+                  <img src="images/fruits.png" alt="">
+
+            </div>
+
+
+
+      </div>
+
+  </div>
+
+  </section>
+
+
+
+
+
+       <section id="Contact">
+
+          <div class="container">
+
+            <div class="form">
+
+                    <h3>CONTACT US</h3>
+                    <h2>Stay Connected </h2>
+                    <h4>
+                         Fill up the form below to inquire today
+                    </h4>
+
+                      <form class="my-form">
+
+                          <div class="form-group">
+
+                            <input type="text" name="name" placeholder="Name">
+
+                          </div>
+
+                          <div class="form-group">
+
+                            <input type="text" name="number" placeholder="Contact
+
+Number">
+
+                          </div>
+
+
+                          <div class="form-group">
+
+                            <input type="email" name="email" placeholder="Email
+
+Address">
+
+                          </div>
+
+                          <div class="form-group">
+
+                            <textarea name="message" placeholder="Message"></textarea>
+
+                          </div>
+
+                            <div class="form-group">
+                            <input class="button" type="submit" id="contactbtn"
+
+value="Submit">
+                              </div>
+                    </form>
+
+               </div>
+
+
+               <div class="carpic">
+
+                  <img src="images/harold.png">
+
+              </div>
+
+
+
+
+         </div>
+
+    </section>
+
+
+
+
+  <footer>
+
+    <div id="preftr">
+
+      <div class="ftrcon">
+
+
+        <div class="ftrleft">
+
+          <img src="images/logo.png">
+
+            <p>"Newer, Broader and Better"</p>
+        </div>
+
+
+
+
+
+        <div class="ftrmain">
+
+
+
+            <div class="list">
+
+                <ul>
+
+
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">CAREERS</a></li>
+                  <li><a href="#">STORES</a></li>
+                </ul>
+            </div>
+
+          <div class="list">
+
+              <ul>
+                <li><a href="#">WHO WE ARE</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">PROMOS</a></li>
+
+
+              </ul>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="ftrright">
+
+        <ul class="conlist">
+            <li>
+              <i class="fas fa-2x fa-envelope"></i>
+              <p>Info@unimart.ph</p>
+            </li>
+
+
+              <li>
+                <i class="fas fa-2x fa-phone flip-horizontal"></i>
+                <p>(+632) 123 456 789</p>
+            </li>
+
+          </ul>
+
+    </div>
+
+
+
+
+  </div><!--end ftrcon -->
+
+
+      </div>
+
+
+              <div class="ftrtxt">
+                  <p>Copyright 2018 © UniMart. All Rights Reserved</p>
+              </div>
+
+         </footer>
+
+
+
+      <script type="text/javascript" src="js/script.js"> </script>
+
+  </body>
+</html>

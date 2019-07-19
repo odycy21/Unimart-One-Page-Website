@@ -1,0 +1,1309 @@
+/* --- Global  --- */
+body, html{
+  padding:0;
+  margin:0;
+  width: 100%;
+}
+
+
+body{
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+
+
+
+/* --- Side Nav --- */
+
+
+.menu-icon {
+      width: 100%;
+      text-align: left;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      display: none;
+}
+
+
+.menu-icon a{
+  cursor: pointer;
+  color: #0294cd;
+}
+
+
+.menu-icon a:hover{
+  color: gray;
+}
+
+.side-nav{
+  height: 100%;
+  width:0;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: #ffffff;
+  opacity:0.9;
+  overflow-x:hidden;
+  padding-top:60px;
+  transition: 0.5s;
+
+}
+
+.side-nav a{
+  padding: 5px 10px 5px  30px;
+  text-decoration: none;
+  font-size:15px;
+  color: #484848;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Cabin', sans-serif;
+}
+
+.side-nav a:hover{
+  color:#ffffff;
+  background-color:#afaeae;
+
+}
+
+
+.side-nav .btn-close{
+  position: absolute;
+  top:0;
+  right:1px;
+  font-size:30px;
+  margin-left:50px;
+
+}
+
+
+
+
+
+/* --- Slick Carousel Css Img --- */
+
+
+
+
+.thing img{
+  width: 270px;
+  height: 180px;
+  margin: 0 auto;
+  border:3px solid white;
+  border-radius: 2px;
+}
+
+.slider {
+    width: 90%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+
+.slick-prev,
+.slick-next{
+
+
+    color: black;
+}
+
+.slick-prev:before,
+.slick-next:before {
+
+  padding: 10px;
+  border-radius: 20px;
+  pointer:cursor;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+
+/* --- Slick Carousel Css Img --- */
+
+
+
+/* --- Wrapper --- */
+
+.container{
+	width: 90%;
+	overflow: hidden;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+}
+
+
+
+/*  --- Customize Scroll ---  */
+
+/*-- width --*/
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/*-- Track --*/
+::-webkit-scrollbar-track {
+    background: black
+		border-radius: 10px;
+}
+
+/*-- Handle --*/
+::-webkit-scrollbar-thumb {
+
+		      background: #0294cd;
+
+}
+
+/* --Handle on hover --*/
+::-webkit-scrollbar-thumb:hover {
+    background: #868686;
+}
+
+
+
+
+/* --- Navigation CSS --- */
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  z-index: 1;
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: #f4f4f4;
+  height: 80px;
+}
+
+
+
+
+nav ul li {
+  display: inline-block;
+  padding: 12px 23px;
+}
+
+nav ul li a {
+  font-family: 'Cabin', sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #484848;
+}
+
+
+nav ul li a:hover{
+  color: #818181;
+}
+
+/* --- Navigation CSS --- */
+
+
+
+/* --- Header Title CSS --- */
+
+  header{
+  overflow: hidden;
+  margin:auto;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  background:url(images/carrots.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+
+
+
+
+.banner{
+  height: 400px;
+  max-width: 700px;
+  margin: 40px auto 40px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.center-me{
+  color:#fff;
+  font-size: 50px;
+  margin: auto;
+
+}
+
+
+.logo img {
+  padding-top: 40px;
+  text-align: center;
+  width: 30%;
+  height: 8%;
+}
+
+.title1 h2{
+  text-align: center;
+  color:#0095cd;
+  font-size: 1em;
+  letter-spacing:6px;
+  font-family: "Merriweather sans", sans-serif;
+  font-weight: bold;
+}
+
+
+
+.ptext h3{
+
+  color:white;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+}
+
+
+
+
+
+.ptext1 h3{
+  padding: 20px;
+  color:white;
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+  display: none;
+}
+
+
+
+
+/*-------HEADER NEW----------*/
+
+.call-outs-container{
+  max-width: 1500px;
+
+}
+
+.call-outs-container2{
+  margin:0 auto 0 auto;
+  max-width: 1500px;
+  justify-content: flex-end;
+  align-items:flex-end;
+}
+
+.call-out{
+
+  box-sizing: border-box;
+}
+
+
+.call-out2{
+  padding:20px;
+  margin-bottom:20px;
+  box-sizing: border-box;
+}
+
+
+
+.call-out2:nth-child(1) {
+  flex-basis:30%;
+}
+
+.call-out2:nth-child(2) {
+    flex-basis:40%;
+
+}
+.call-out2:nth-child(3) {
+
+  flex-basis:30%;
+}
+
+
+
+
+
+/*-------HEADER NEW----------*/
+
+
+
+
+
+/* --- Header Title CSS --- */
+
+
+
+/* --- About CSS --- */
+
+#About{
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+	padding-top:10px;
+  padding-bottom:10px;
+  background-color: #f2f7e3;
+}
+
+#About h3{
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-weight: lighter;
+  font-size: .9em;
+  color:#868686;
+}
+
+#About h2{
+  text-align: center;
+  font-family: "Merriweather sans", sans-serif;
+  font-size: 1.7em;
+  color:#0294cd;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+}
+
+#About p{
+  font-family: "Merriweather sans", sans-serif;
+  font-size: .8em;
+  color:#868686;
+  text-align: justify;
+}
+
+.containers{
+	width: 100%;
+	overflow: hidden;
+  margin: 4em auto;
+  font-size: 20px;
+}
+
+#usbtn{
+    border-radius: 20px;
+    border: 1px solid #0294cd;
+    background-color:#0294cd;
+    font-size: 15px;
+    color: white;
+    text-transform:uppercase;
+    padding: 9px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#usbtn:hover{
+  background:white;
+  border: 1px solid #0294cd;
+  color:#0294cd;
+}
+
+
+
+
+          .abcon{
+                  display: flex;
+                  justify-content: space-between;
+                  flex-wrap: wrap;
+
+                }
+
+        .abmain{
+            flex:1; /* 	how much width */
+            order:2;/* 	positioning of elements */
+          }
+
+          .ableft{
+            flex:1;
+            order: 1;
+          }
+
+          .abright{
+            flex:1;
+            order: 3;
+
+          }
+
+          .ableft img{
+
+           object-fit: contain;
+
+          }
+
+          .abright img{
+
+            object-fit: contain;
+
+          }
+
+/* --- About CSS --- */
+
+
+
+
+/* --- Promos CSS --- */
+
+#Promos{
+  margin: auto;
+  width: 100%;
+  min-height: 100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  background:
+  linear-gradient(
+      rgba(0, 149, 205, 0.75),
+      rgba(0, 149, 205, 0.75)),
+      url(images/bar.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#Promos h3{
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-size: .8em;
+  font-weight: lighter;
+  color:white;
+  letter-spacing: 1.3px;
+}
+
+#Promos h2{
+  text-align: center;
+  font-family: "Merriweather sans", sans-serif;
+  font-size: 1.7em;
+  color:white;
+  letter-spacing: 1.6px;
+  padding-bottom: 0px;
+}
+
+
+#Promos h4{
+  font-family: "Merriweather sans", sans-serif;
+  font-size: .7em;
+  color:white;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+#promobtn{
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color:white;
+    font-size: 15px;
+    color: #0294cd;
+    text-transform:uppercase;
+    padding: 9px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#promobtn:hover{
+  background:#5a5a5a;
+  border: 1px solid #5a5a5a;
+  color:white;
+}
+
+
+
+
+
+/* --- Promos CSS --- */
+
+
+
+
+/* --- Stores CSS --- */
+
+#Stores {
+  margin: auto;
+  width: 100%;
+  min-height: 100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  background: #ffffff;
+}
+
+
+
+#Stores h3{
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-size: .8em;
+  font-weight: lighter;
+  color:#868686;
+  letter-spacing: 1.3px;
+}
+
+#Stores h2{
+  text-align: center;
+  font-family: "Merriweather sans", sans-serif;
+  font-size: 1.7em;
+  color:#0294cd;
+  letter-spacing: 1.6px;
+  padding-bottom: 0px;
+}
+
+
+#Stores h4{
+  font-family: "Merriweather sans", sans-serif;
+  font-size: .7em;
+  color:#868686;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+
+
+
+/* --- Google Map CSS --- */
+
+.mymap{
+  float: left;
+  width: 600px;
+  padding-top: 10px;
+}
+
+.gmap{
+  overflow:hidden;
+  background:none!important;
+}
+
+
+#gmaps{
+width:80%;
+height:471px;
+}
+
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
+
+.address{
+float: right;
+width: 500px;
+}
+
+.address label{
+float:left;
+padding-top:5px;
+font-family: "Merriweather sans", sans-serif;
+font-size: 1.1em;
+color:#0294cd;
+}
+
+.address ul{
+text-decoration: none;
+padding-top: 1px;
+float: left;
+}
+
+.address ul li {
+list-style-type: none;
+font-family: "Merriweather sans", sans-serif;
+font-size: 14px;
+color:#868686;
+padding: 15px;
+
+}
+
+.mark{
+  font-size: 20px;
+  color: #0294cd;
+}
+
+
+/* --- Stores CSS --- */
+
+
+
+
+/* --- Careers CSS --- */
+
+#Careers{
+  margin: auto;
+  width: 100%;
+
+  padding-top:4px;
+  padding-bottom:10px;
+  background:
+  linear-gradient(
+      rgba(232, 227, 224, 0.95),
+      rgba(232, 227, 224, 0.95)),
+      url(images/achieve.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+
+#Careers h3{
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  font-size: .8em;
+  font-weight: lighter;
+  color:#868686;
+  letter-spacing: 1.3px;
+}
+
+#Careers h2{
+  text-align: center;
+  font-family: "Merriweather sans", sans-serif;
+  font-size: 1.7em;
+  color:#0294cd;
+  letter-spacing: 1.6px;
+  padding-bottom: 0px;
+}
+
+
+#Careers h4{
+  font-family: "Merriweather sans", sans-serif;
+  font-size: .7em;
+  color:#868686;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+#careerbtn{
+  border-radius: 20px;
+  border: 1px solid #0294cd;
+  background-color:#0294cd;
+  font-size: 15px;
+  color:white;
+  text-transform:uppercase;
+  padding: 9px;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  margin-top: 25px;
+}
+
+
+#careerbtn:hover{
+  background:white;
+  border: 1px solid white;
+  color:#0294cd;
+}
+
+
+
+
+                  .carcon{
+                  				display: flex;
+                          justify-content: space-between;
+                          flex-wrap: wrap;
+                          width: 100%;
+
+
+                  			}
+
+
+
+                .carmain{
+                		flex:2; /* 	how much width */
+                		order:2;/* 	positioning of elements */
+
+
+                	}
+
+                	.carleft{
+                		flex:1;
+                		order: 1;
+                    align-self: flex-end;
+
+                	}
+
+                	.carright{
+                		flex:1;
+                		order: 3;
+
+                	}
+
+
+
+
+/* --- Careers CSS --- */
+
+
+
+
+/* --- Contact CSS --- */
+
+#Contact{
+  margin: auto;
+  width: 100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  background: #ffffff;
+
+}
+
+
+#Contact h3{
+  text-align: left;
+  font-family: "Cabin", sans-serif;
+  font-size: .8em;
+  font-weight: lighter;
+  color:#868686;
+  letter-spacing: 1.3px;
+
+}
+
+#Contact h2{
+  text-align: left;
+  font-family: "Merriweather sans", sans-serif;
+  font-size: 1.7em;
+  color:#0294cd;
+  letter-spacing: 1.6px;
+  padding-bottom: 0px;
+}
+
+
+#Contact h4{
+  font-family: "Merriweather sans", sans-serif;
+  font-size: .7em;
+  color:#868686;
+  text-align: left;
+  font-weight: lighter;
+}
+
+
+#contactbtn{
+  float: right;
+  border-radius: 20px;
+  border: 1px solid #0294cd;
+  background-color:#0294cd;
+  font-size: 11px;
+  color:white;
+  text-transform:uppercase;
+  padding: 6px;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-top: 10px;
+  width: 40%;
+}
+
+#contactbtn:hover{
+  background: white;
+  color:#0294cd;
+}
+
+/* -- Contact Form --*/
+
+.my-form{
+  float:left;
+  width: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form input[type="text"], input[type="email"], input[type="number"]{
+  font-size: 12px;
+	padding: 8px;
+	width: 100%;
+  background: #e5e5e5;
+  color: white;
+  border: Transparent 1px;
+  border-radius: 3px;
+  resize: none;
+
+}
+.my-form textarea{
+  padding: 8px;
+  background: #e5e5e5;
+  color: white;
+  border: Transparent 1px;
+  border-radius: 3px;
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+ #Contact .form{
+  float: left;
+  width: 300px;
+}
+
+
+#Contact .carpic{
+  width: 600px;
+  float: right;
+}
+
+
+#Contact .carpic img{
+  width: 600px;
+
+}
+
+/* --- Contact CSS --- */
+
+
+
+/* --- Footer CSS --- */
+
+footer{
+  width: 100%;
+  margin: auto;
+  min-height: 100%;
+  background: #0294cd;
+  font-size: 14px;
+  color:white;
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+  overflow: hidden;
+}
+
+
+#preftr{
+  background: #eeecec;
+  overflow: hidden;
+  padding: 30px;
+}
+
+#preftr p{
+  color:#868686;
+}
+
+
+
+.conlist li{
+  display: inline-block;
+  padding: 18px;
+  color: #0294cd;
+  text-decoration: none;
+}
+
+
+.list{
+  padding-top: 25px;
+  width: 50%;
+  float: left;
+  letter-spacing: 2px;
+  font-family: "Cabin", sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+
+
+.list ul{
+list-style: none;
+text-align: left;
+
+}
+
+.list ul li a{
+  text-decoration: none;
+  color:#4a4a4a;
+
+}
+
+.list ul li a:hover{
+
+  color:#afaeae;
+}
+
+/* -- Flip Font Awesome Icon --*/
+
+  .flip-horizontal {
+      -moz-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      transform: scaleX(-1);
+      -ms-filter: fliph; /*IE*/
+      filter: fliph; /*IE*/
+  }
+
+
+
+
+
+
+@media screen and (min-width: 468px){
+
+          .ftrcon{
+          				display: flex;
+                  justify-content: space-between;
+                  flex-wrap: wrap;
+          			}
+
+
+          }
+
+
+
+        .ftrmain{
+        		flex:1; /* 	how much width */
+        		order:2;/* 	positioning of elements */
+        text-align: center;
+
+
+        	}
+
+        	.ftrleft{
+        		flex:1;
+        		order: 1;
+
+        	}
+
+          .ftrleft img{
+            width: 180px;
+            height: 80px;
+          }
+
+        	.ftrright{
+        		flex:1;
+        		order: 3;
+
+        	}
+
+/* --- Footer CSS --- */
+
+
+
+/* ---- Media Queries ---- */
+
+
+
+
+
+
+@media (max-width:1027px){
+
+      .call-out2:nth-child(2) {
+      display: none;
+      }
+
+      .call-out2:nth-child(1) {
+      text-align: center;
+      flex-basis:50%;
+      }
+      .call-out2:nth-child(3) {
+      text-align: center;
+      flex-basis:50%;
+      }
+
+}
+
+
+
+
+@media (max-width:1021px){
+
+    .ptext1 h3{
+    display: contents;
+    font-size: 13px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px black;
+
+    }
+
+    .title1 {
+    font-size: 1em;
+    }
+
+}
+
+
+@media (max-width:950px){
+
+.call-out2:nth-child(1) {
+  display: none;
+}
+.call-out2:nth-child(2) {
+  display: none;
+}
+
+.call-out2:nth-child(3) {
+  text-align: center;
+  margin: auto;
+}
+
+
+.ptext1 h3{
+display: contents;
+font-size: 15px;
+color: #ffffff;
+text-shadow: 1px 1px 1px black;
+}
+
+.title1 {
+
+font-size: 1em;
+}
+
+.logo img {
+  padding-top: 40px;
+  text-align: center;
+  width: 30%;
+  height: 8%;
+}
+
+}
+
+
+@media (min-width: 900px){
+  .call-outs-container2{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 1235px){
+
+
+  .mymap{
+    width: 100%;
+    padding-top: 10px;
+  }
+
+
+
+    .address{
+      padding-top: 30px;
+      text-align: center;
+      width: 100%;
+    }
+
+
+
+    .address label{
+    width: 100%;
+
+    }
+
+    .address ul li {
+      display: inline-block;
+      margin:0 auto;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 1112px){
+
+
+  .abcon{
+          display: flex;
+          flex-direction: column;
+
+        }
+
+        .abmain{
+            width: 80%;
+            padding: 0;
+            margin: auto;
+          }
+
+
+
+}
+
+
+
+
+
+/*-- Side Nav Bar --*/
+
+@media screen and (max-width: 721px){
+
+    .hdleft{
+
+      display: none;
+    }
+
+
+     .hdright{
+        display: none;
+    }
+
+      .menu{
+        display: none;
+
+      }
+
+      .menu-icon {
+          display: block;
+    }
+
+
+
+
+
+
+
+    .title1 h2{
+
+      font-size: .7em;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 633px){
+
+.carpic{
+  display: none;
+}
+
+#Contact .form{
+   width: 100%;
+}
+
+
+
+#Contact h3,  #Contact h4, #Contact h2{
+text-align: center;
+}
+
+
+#contactbtn{
+float:inherit;
+
+}
+
+ .list ul li{
+   padding:0;
+
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 570px ){
+
+
+  .list ul li a{
+  padding: : 9px;
+  }
+
+  .title1 h2{
+    font-size: .4em;
+  }
+
+}
+
+
+/*-- Smallest --*/
+
+@media screen and (max-width: 400px){
+
+    #gmaps{
+    width:90%;
+    height:471px;
+  }
+
+
+  .carleft{
+      display: none;
+
+  }
+
+  .carright{
+
+      display: none;
+  }
+
+
+  .abright{
+
+      display: none;
+  }
+
+.ableft{
+
+    display: none;
+}
+
+
+
+    #Contact .carpic img{
+
+        display: none;
+
+    }
+
+
+    #Contact .form{
+       width: 100%;
+   }
+
+
+
+#Contact h3,  #Contact h4, #Contact h2{
+text-align: center;
+}
+
+
+#contactbtn{
+float:inherit;
+
+}
+
+
+  .menu{
+    display: none;
+
+  }
+
+  .menu-icon {
+      display: block;
+}
+
+
+.logo img{
+  width: 45%;
+  height: 8%;
+}
+
+
+}
